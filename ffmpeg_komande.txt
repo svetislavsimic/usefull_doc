@@ -1,0 +1,14 @@
+FFPROBE komande
+
+Prikaz informacija o frejmovima i skladistenje u txt fajl
+ffprobe -show_frames "C:\Users\sinisa\Desktop\Camera01-1-000.avi" >output.txt
+
+
+Prikaz informacije o frejmovima prvih 20 sekundi i skladistenje u txt fajl
+ffprobe  -show_frames -read_intervals %+20  "C:\Users\sinisa\Desktop\Camera01-1-000.avi" >output.txt
+
+Prikaz informacije o frejmovima, od 10 sekunde pa narednih 20, zatim od 1 minuta i 30 sekundi do 1 minuta i 45 sekundi i skladistenje u txt fajl
+ffprobe  -show_frames -read_intervals 10%+20,01:30%01:45 "C:\Users\sinisa\Desktop\Camera01-1-000.avi" >output.txt
+
+REENKODOVANJE XVID 
+>ffmpeg -i Camera01-1-000.avi -c:v libxvid output.avi
