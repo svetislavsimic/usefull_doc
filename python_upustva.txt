@@ -1,0 +1,21 @@
+Kreiranje virtualenv:
+pipenv --python 3
+
+Brisanje virtualenv:
+pipenv --rm
+
+Instaliranje paketa:
+pipenv install [package names]
+
+aktiviranje virtualenv:
+pipenv shell
+
+django:
+pipenv install django==version
+django-admin startproject
+cd {ProjectName}
+python manage.py strartapp {appName}
+
+**************
+sa py -3.6 startujemo verziju 3.6
+sa py -3.7 startujemo verziju 3.7
