@@ -70,5 +70,13 @@ conda activate D:\my_dev\PythonApp\kerasExample
 conda install keras
 conda install numpy
 conda install scikit-learn
+#za importovanje ipynb fajla u drugi ipynb fajl
+conda install -c conda-forge importnb
+conda install -c plotly plotly
+************PYTHON KVIZ**************
+https://www.programiz.com/python-programming/methods/string/translate
+************TUTORIALI****************
+https://selenium-python.readthedocs.io/installation.html
+https://www.programiz.com/python-programming
 
 
