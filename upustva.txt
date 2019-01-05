@@ -66,6 +66,11 @@ jupyter notebook
 **lista svih environmenta
 conda env list 
 conda activate D:\my_dev\PythonApp\kerasExample
+******conda zapazanja
+kada startujemo anaconda prompt ona nam otvori cmd 
+u base direktorijumu. Onda kada aktiviramo neki virtualenv
+moramo i da navigiramo do njega da bi mogli iz tog cmd-a da pokrenemo 
+neki skript iz virtualenv
 **************keras***************
 conda install keras
 conda install numpy
